@@ -1,0 +1,372 @@
+[
+  {
+    "name": "zmk",
+    "url": "https://github.com/zmkfirmware/zmk",
+    "revision": "edf5c0814fd3ea202e43aad2d68fd32e882a518c",
+    "west-commands": "scripts/west-commands.yml",
+    "path": "zmk",
+    "hash": "sha256-4OUbkU6tGixO0H9zAG8f2afXIvn2PGkGV9f2uexOmUU="
+  },
+  {
+    "name": "zmk-rgbled-widget",
+    "url": "https://github.com/caksoylar/zmk-rgbled-widget",
+    "revision": "8756cb7b8114069fa3c25c6f6c990f24988fceff",
+    "path": "zmk-rgbled-widget",
+    "hash": "sha256-fABSXTqe2vXB6wLZqVf0zynYePQdGY7jEh60vqN8DIM="
+  },
+  {
+    "name": "zmk_driver_azoteq",
+    "url": "https://github.com/beekeeb/zmk_driver_azoteq",
+    "revision": "c329f309b7481e5723603550b15f48e24d0c8a6a",
+    "path": "zmk_driver_azoteq",
+    "hash": "sha256-Kyo8mkef6TVLlrkv2HyNbokF0bkVkG5yu+z04FBl6R0="
+  },
+  {
+    "name": "zmk-input-zoom",
+    "url": "https://github.com/beekeeb/zmk-input-zoom",
+    "revision": "91bbe0c0e02145da50c9df798489479d28be1804",
+    "path": "zmk-input-zoom",
+    "hash": "sha256-thFgzHsrCCdSBpMv+qMTNjzm0c4wvF1AYPUHFdWtaLA="
+  },
+  {
+    "name": "zephyr",
+    "url": "https://github.com/zmkfirmware/zephyr",
+    "revision": "dacab4875df72109b96cc8977547a0dc04875bcd",
+    "clone-depth": 1,
+    "west-commands": "scripts/west-commands.yml",
+    "path": "zephyr",
+    "hash": "sha256-7QpHcotCG+m16PvGdB+aZrU+5p/FSXhmkmtMoUkKqs4="
+  },
+  {
+    "name": "nanopb",
+    "url": "https://github.com/zmkfirmware/nanopb",
+    "revision": "8c60555d6277a0360c876bd85d491fc4fb0cd74a",
+    "path": "modules/lib/nanopb",
+    "hash": "sha256-L+BBhQX/oRscA/J7muAmJ/9gr+BE8/Vd7efBzQ7B5/A="
+  },
+  {
+    "name": "zmk-studio-messages",
+    "url": "https://github.com/zmkfirmware/zmk-studio-messages",
+    "revision": "6cb4c283e76209d59c45fbcb218800cd19e9339d",
+    "path": "modules/msgs/zmk-studio-messages",
+    "hash": "sha256-Cfw1htCp3xZt1R+X3kW3e9shEcMGbeBbEqpDoyLJV3s="
+  },
+  {
+    "name": "acpica",
+    "url": "https://github.com/zephyrproject-rtos/acpica",
+    "revision": "0333c2af13179f9b33d495cf7cb9a509f751cbb1",
+    "path": "modules/lib/acpica",
+    "hash": "sha256-PJIeRTeErD/xhYMxxwZ5DUZqX9Xucbq1clLHaHQkBhE="
+  },
+  {
+    "name": "canopennode",
+    "url": "https://github.com/zephyrproject-rtos/canopennode",
+    "revision": "dec12fa3f0d790cafa8414a4c2930ea71ab72ffd",
+    "path": "modules/lib/canopennode",
+    "hash": "sha256-BbmEjeMzKznRDx329PIkmPMCGI+du6wiOj+3X7Ap1HQ="
+  },
+  {
+    "name": "cmsis",
+    "url": "https://github.com/zephyrproject-rtos/cmsis",
+    "revision": "5a00331455dd74e31e80efa383a489faea0590e3",
+    "path": "modules/hal/cmsis",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-1oCeT681nFDbCyhp0mErktuoj3YtFDzP5dLYdWz0+AM="
+  },
+  {
+    "name": "cmsis-dsp",
+    "url": "https://github.com/zephyrproject-rtos/cmsis-dsp",
+    "revision": "ff7b5fd1ea5f094665c090c343ec44e74dc0b193",
+    "path": "modules/lib/cmsis-dsp",
+    "hash": "sha256-UWVpcv8yiF5pIohMkJpCE+oE23/j6Te+LgNWB8ayn3k="
+  },
+  {
+    "name": "cmsis-nn",
+    "url": "https://github.com/zephyrproject-rtos/cmsis-nn",
+    "revision": "0c8669d81381ccf3b1a01d699f3b68b50134a99f",
+    "path": "modules/lib/cmsis-nn",
+    "hash": "sha256-/2g8h52HxzOLonXgCTXpN/JUY/LOeGMW6llC+un01K4="
+  },
+  {
+    "name": "fatfs",
+    "url": "https://github.com/zephyrproject-rtos/fatfs",
+    "revision": "427159bf95ea49b7680facffaa29ad506b42709b",
+    "path": "modules/fs/fatfs",
+    "groups": [
+      "fs"
+    ],
+    "hash": "sha256-5l3hJazG8BoLZ0QxfSFc98uKArIGAFD1P8D6tsKMRt4="
+  },
+  {
+    "name": "hal_ambiq",
+    "url": "https://github.com/zephyrproject-rtos/hal_ambiq",
+    "revision": "0a7c99325aa73a1ef777501da91c2c6608661e56",
+    "path": "modules/hal/ambiq",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-5EjZmByUm3Ypc2SjdWk796aaoRkrSHE9Y4Gda8jZPeg="
+  },
+  {
+    "name": "hal_atmel",
+    "url": "https://github.com/zephyrproject-rtos/hal_atmel",
+    "revision": "5ab43007eda3f380c125f957f03638d2e8d1144d",
+    "path": "modules/hal/atmel",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-MjnqUHXrOGT6FEEV4wFqWFTuz3HEthAecSq7dy3IVjM="
+  },
+  {
+    "name": "hal_espressif",
+    "url": "https://github.com/zephyrproject-rtos/hal_espressif",
+    "revision": "31fc5758f3507f8f0af00b1dea1a0df7af99bfc0",
+    "path": "modules/hal/espressif",
+    "west-commands": "west/west-commands.yml",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-6VuOM1lKtFPiAGbDBXbEy8/UByjSLtfDPsDbf7OHZBU="
+  },
+  {
+    "name": "hal_ethos_u",
+    "url": "https://github.com/zephyrproject-rtos/hal_ethos_u",
+    "revision": "90ada2ea5681b2a2722a10d2898eac34c2510791",
+    "path": "modules/hal/ethos_u",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-w4+/RNRFMgXG/hHzwj9ogW1Urqb14UPNmGajCLsh24o="
+  },
+  {
+    "name": "hal_gigadevice",
+    "url": "https://github.com/zephyrproject-rtos/hal_gigadevice",
+    "revision": "2994b7dde8b0b0fa9b9c0ccb13474b6a486cddc3",
+    "path": "modules/hal/gigadevice",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-Cgcc+7tJy0ryQG4ynrlv7OmNe3OW2kMx1mStGROgA5o="
+  },
+  {
+    "name": "hal_intel",
+    "url": "https://github.com/zephyrproject-rtos/hal_intel",
+    "revision": "b3b43d4e3da7ba483611bbbea7ef8af92c69df31",
+    "path": "modules/hal/intel",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-Ys1dAKZjhdBNg/0/UD+6Qj0ayFboxu8yQDdGofgGTdQ="
+  },
+  {
+    "name": "hal_nordic",
+    "url": "https://github.com/zephyrproject-rtos/hal_nordic",
+    "revision": "884c4d61746bc35fbd379c169fc87ddb56c6461d",
+    "path": "modules/hal/nordic",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-L6jCDtBfE78JZDo81VCvdJxFWMoj7EJYzXMAhgqyJ9Q="
+  },
+  {
+    "name": "hal_nuvoton",
+    "url": "https://github.com/zephyrproject-rtos/hal_nuvoton",
+    "revision": "3e0a4c4d3328b2f72b164219add19d5308b53cb5",
+    "path": "modules/hal/nuvoton",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-TwTOA0tRt2Qz46DQEKeLCuD/Ue5nudxW/R80wEhmgfU="
+  },
+  {
+    "name": "hal_quicklogic",
+    "url": "https://github.com/zephyrproject-rtos/hal_quicklogic",
+    "revision": "b3a66fe6d04d87fd1533a5c8de51d0599fcd08d0",
+    "path": "modules/hal/quicklogic",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-XpPROaiZN0KRxQCtEOYaXSEBtxAo+atnH1ytOMXpYUI="
+  },
+  {
+    "name": "hal_renesas",
+    "url": "https://github.com/zephyrproject-rtos/hal_renesas",
+    "revision": "a6cf2af9140e014fbbc48d2b6deb802231dd369f",
+    "path": "modules/hal/renesas",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-3/hEJxE+ScUgBeZ9Z9QdE53075xaths4XcmK80OrDQA="
+  },
+  {
+    "name": "hal_rpi_pico",
+    "url": "https://github.com/zephyrproject-rtos/hal_rpi_pico",
+    "revision": "fba7162cc7bee06d0149622bbcaac4e41062d368",
+    "path": "modules/hal/rpi_pico",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-oJQPq//mAxAQW8QzxixbiHJsMMANtQl3BevMUL9Kv5g="
+  },
+  {
+    "name": "hal_stm32",
+    "url": "https://github.com/zephyrproject-rtos/hal_stm32",
+    "revision": "89ef0a3383edebf661073073bcdf6e2836fe90ee",
+    "path": "modules/hal/stm32",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-+1YMc+gSShb4SY5vXUQefsz4IKBTxC2tGizZHF4v+Hw="
+  },
+  {
+    "name": "hal_telink",
+    "url": "https://github.com/zephyrproject-rtos/hal_telink",
+    "revision": "38573af589173259801ae6c2b34b7d4c9e626746",
+    "path": "modules/hal/telink",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-ioHMx0rpbRppxAoT5yLcIHgLhoO9vyuas9YwaOEyvtQ="
+  },
+  {
+    "name": "hal_wurthelektronik",
+    "url": "https://github.com/zephyrproject-rtos/hal_wurthelektronik",
+    "revision": "24ca9873c3d608fad1fea0431836bc8f144c132e",
+    "path": "modules/hal/wurthelektronik",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-CIoXgrW/G62hFSSj1q+tnlf5AdzEGnJtQQ2fBYgcS2g="
+  },
+  {
+    "name": "libmetal",
+    "url": "https://github.com/zephyrproject-rtos/libmetal",
+    "revision": "b91611a6f47dd29fb24c46e5621e797557f80ec6",
+    "path": "modules/hal/libmetal",
+    "groups": [
+      "hal"
+    ],
+    "hash": "sha256-n0mZzV62tZI27Y6dftMPWAtMaJQDuB9ju9THrr55QF4="
+  },
+  {
+    "name": "liblc3",
+    "url": "https://github.com/zephyrproject-rtos/liblc3",
+    "revision": "448f3de31f49a838988a162ef1e23a89ddf2d2ed",
+    "path": "modules/lib/liblc3",
+    "hash": "sha256-t0dFjIwOGKK5yBn1Y0XFl5jPxviAnER1wLoAH+YQKR8="
+  },
+  {
+    "name": "littlefs",
+    "url": "https://github.com/zephyrproject-rtos/littlefs",
+    "revision": "ca583fd297ceb48bced3c2548600dc615d67af24",
+    "path": "modules/fs/littlefs",
+    "groups": [
+      "fs"
+    ],
+    "hash": "sha256-tj03GWzq3WFr+HPs/27ijoTBxascC69WDzLYcm2Wt4M="
+  },
+  {
+    "name": "lvgl",
+    "url": "https://github.com/zephyrproject-rtos/lvgl",
+    "revision": "8a6a2d1d29d17d1e4bdc94c243c146a39d635fdd",
+    "path": "modules/lib/gui/lvgl",
+    "hash": "sha256-RDirbdNZ0QQ1g0WJyWx2k70J+zUhTdWiF484VAakVWc="
+  },
+  {
+    "name": "mbedtls",
+    "url": "https://github.com/zephyrproject-rtos/mbedtls",
+    "revision": "c38dc78d9a8dcbe43b898cc1171ab33ba3e6fc26",
+    "path": "modules/crypto/mbedtls",
+    "groups": [
+      "crypto"
+    ],
+    "hash": "sha256-Jy5eBBdVPrpyRIKV5fUp71cQeijc+XW9ReNLDryvwRg="
+  },
+  {
+    "name": "mipi-sys-t",
+    "url": "https://github.com/zephyrproject-rtos/mipi-sys-t",
+    "revision": "a819419603a2dfcb47f7f39092e1bc112e45d1ef",
+    "path": "modules/debug/mipi-sys-t",
+    "groups": [
+      "debug"
+    ],
+    "hash": "sha256-IVOOcEJZx/jzTGfm+1WJatzYsw5+URzSeIxq92bjm2w="
+  },
+  {
+    "name": "nrf_hw_models",
+    "url": "https://github.com/zephyrproject-rtos/nrf_hw_models",
+    "revision": "f4595802d32d103718bf50b3d390b7a450895843",
+    "path": "modules/bsim_hw_models/nrf_hw_models",
+    "hash": "sha256-5SIlP6gyZroNyN43TwfhEGeKfwgP/AYbwBuNnb2z5hI="
+  },
+  {
+    "name": "open-amp",
+    "url": "https://github.com/zephyrproject-rtos/open-amp",
+    "revision": "42b7c577714b8f22ce82a901e19c1814af4609a8",
+    "path": "modules/lib/open-amp",
+    "hash": "sha256-iZtC8uXGapFPNU2XNWjfc6DmuaqkUiZo6H/swciOATI="
+  },
+  {
+    "name": "percepio",
+    "url": "https://github.com/zephyrproject-rtos/percepio",
+    "revision": "a3728efccc47dd372f40e6313589ca4c5cc7d5e9",
+    "path": "modules/debug/percepio",
+    "groups": [
+      "debug"
+    ],
+    "hash": "sha256-/BHYjJrBSdSA8KFU1DwgOX9PbLe+8ltuOvpEq7k0Hzo="
+  },
+  {
+    "name": "picolibc",
+    "url": "https://github.com/zephyrproject-rtos/picolibc",
+    "revision": "d07c38ff051386f8e09a143ea0a6c1d6d66dd1d8",
+    "path": "modules/lib/picolibc",
+    "hash": "sha256-+P7jCnRPumDzk1Fw8qvRV6W+reoIM+8lrjWs6Hm8ZN0="
+  },
+  {
+    "name": "segger",
+    "url": "https://github.com/zephyrproject-rtos/segger",
+    "revision": "9d0191285956cef43daf411edc2f1a7788346def",
+    "path": "modules/debug/segger",
+    "groups": [
+      "debug"
+    ],
+    "hash": "sha256-9nt0z674ubxxvIANPMf82Qf7KsOwR3Hg8wYAK5r/i4c="
+  },
+  {
+    "name": "tinycrypt",
+    "url": "https://github.com/zephyrproject-rtos/tinycrypt",
+    "revision": "3e9a49d2672ec01435ffbf0d788db6d95ef28de0",
+    "path": "modules/crypto/tinycrypt",
+    "groups": [
+      "crypto"
+    ],
+    "hash": "sha256-5gtZbZNx+D/EUkyYk7rPtcxBZaNs4IFGTP/7IXzCoqU="
+  },
+  {
+    "name": "trusted-firmware-a",
+    "url": "https://github.com/zephyrproject-rtos/trusted-firmware-a",
+    "revision": "421dc050278287839f5c70019bd6aec617f2bbdb",
+    "path": "modules/tee/tf-a/trusted-firmware-a",
+    "groups": [
+      "tee"
+    ],
+    "hash": "sha256-XsjRUe0Cr5bd+rOzoS+Hquh9k2nKwDKt2+up24aCOgk="
+  },
+  {
+    "name": "uoscore-uedhoc",
+    "url": "https://github.com/zephyrproject-rtos/uoscore-uedhoc",
+    "revision": "5fe2cb613bd7e4590bd1b00c2adf181ac0229379",
+    "path": "modules/lib/uoscore-uedhoc",
+    "hash": "sha256-Ag/pFDX5SCirxhO8ducHs1I/yXdq1tsj20EN16LrH0A="
+  },
+  {
+    "name": "zcbor",
+    "url": "https://github.com/zephyrproject-rtos/zcbor",
+    "revision": "67fd8bb88d3136738661fa8bb5f9989103f4599e",
+    "path": "modules/lib/zcbor",
+    "hash": "sha256-Z4I14nLsER+GcqGzd8ILuk9QBUOV3u3aMA4q2s9EI5g="
+  }
+]
