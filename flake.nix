@@ -145,7 +145,9 @@
       checks = forAllSystems (pkgs: {
         update-west = pkgs.runCommand "test-update-west" { } ''
           export TOUCAN_UPDATE_SCRIPT=${./nix/update-west.py}
-          ${pkgs.python3.withPackages (ps: [ ps.west ])}/bin/python3 -m unittest discover -s ${./tests}
+          ${
+            pkgs.python3.withPackages (ps: [ ps.west ])
+          }/bin/python3 -m unittest discover -s ${./tests} -p test_update_west.py
           touch "$out"
         '';
       });
