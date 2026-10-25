@@ -1,0 +1,112 @@
+# Labels and styling only; bindings come from toucan.keymap and geometry from toucan.json.
+parse_config:
+  modifier_fn_map:
+    left_ctrl: Ctrl
+    right_ctrl: Ctrl
+    left_shift: Shift
+    right_shift: Shift
+    left_alt: Opt
+    right_alt: Opt
+    left_gui: Cmd
+    right_gui: Cmd
+  zmk_keycode_map:
+    GRAVE: "`"
+    TILDE: "~"
+    HASH: "#"
+    AMPS: "&"
+    PIPE: "|"
+    CARET: "^"
+    LBRC: "{"
+    RBRC: "}"
+    LBKT: "["
+    RBKT: "]"
+    EXCL: "!"
+    UNDER: "_"
+    COLON: ":"
+    EQUAL: "="
+    DLLR: "$"
+    AT: "@"
+    LPAR: "("
+    RPAR: ")"
+    SEMI: ";"
+    PRCNT: "%"
+    QMARK: "?"
+    STAR: "*"
+    PLUS: "+"
+    BSLH: "\\"
+    FSLH: "/"
+    MINUS: "-"
+    LT: "<"
+    GT: ">"
+    DQT: '"'
+    SQT: "'"
+    COMMA: ","
+    DOT: "."
+    LSHFT: Shift
+    RSHFT: Shift
+    LCTRL: Ctrl
+    RCTRL: Ctrl
+    LALT: Opt
+    RALT: Opt
+    LGUI: Cmd
+    RGUI: Cmd
+    RET: Enter
+    SPACE: Space
+    BSPC: Bksp
+    TAB: Tab
+    ESC: Esc
+    LEFT: "←"
+    DOWN: "↓"
+    UP: "↑"
+    RIGHT: "→"
+    HOME: Home
+    END: End
+    PG_DN: PgDn
+    PG_UP: PgUp
+    INS: Ins
+    DEL: Del
+    PSCRN: PrtSc
+    SLCK: ScrLk
+    PAUSE_BREAK: Pause
+    K_APP: Menu
+    C_PREV: Prev
+    C_NEXT: Next
+    C_VOL_DN: Vol−
+    C_VOL_UP: Vol+
+    C_STOP: Stop
+    C_PP: Play/Pause
+    C_MUTE: Mute
+  raw_binding_map:
+    "&mkp MCLK": MMB
+    "&mkp LCLK": LMB
+    "&mkp RCLK": RMB
+    "&studio_unlock": Studio
+    "&out OUT_TOG": USB/BLE
+    "&bt BT_CLR": BT clear
+    "&bt BT_SEL 0": BT 1
+    "&bt BT_SEL 1": BT 2
+    "&bt BT_SEL 2": BT 3
+    "&bt BT_SEL 3": BT 4
+    "&bt BT_SEL 4": BT 5
+
+# Each layer gets its own color and legend position on the same keyboard.
+draw_config:
+  key_w: 100
+  key_h: 100
+  n_columns: 1
+  small_pad: 5
+  shrink_wide_legends: 10
+  svg_extra_style: |
+    svg.keymap { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 23px; }
+    text.label { stroke: #f8fafc; }
+    rect.key { fill: #ffffff; stroke: #cbd5e1; }
+    text { fill: #0f172a; }
+    text.tl, .layer-num text.tap { fill: #0369a1; }
+    text.tr, .hold-sym text.hold { fill: #be123c; }
+    text.bl, .layer-nav text.tap { fill: #15803d; }
+    text.br, .layer-fun text.tap { fill: #7e22ce; }
+    text.shifted, .layer-media text.tap { fill: #b45309; }
+    text.right { fill: #0f766e; }
+    text.hold { fill: #475569; }
+    text.tl, text.tr, text.bl, text.br, text.shifted, text.right, text.hold { font-size: 12px; }
+    text.layer-activator { text-decoration: none; }

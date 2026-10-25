@@ -109,6 +109,17 @@
               exec ${updatePython}/bin/python3 ${./nix/update-west.py} "$@"
             '';
           };
+          draw = pkgs.writeShellApplication {
+            name = "toucan-draw";
+            runtimeInputs = [ pkgs.keymap-drawer ];
+            text = ''
+              exec ${pkgs.python3.withPackages (ps: [ ps.pyyaml ])}/bin/python3 \
+                ${./nix/draw-keymap.py} \
+                --keymap ${./config/toucan.keymap} \
+                --layout ${./config/toucan.json} \
+                --config ${./config/keymap-drawer.yaml} "$@"
+            '';
+          };
           flash = pkgs.writeShellApplication {
             name = "toucan-flash";
             runtimeInputs = [
@@ -138,6 +149,7 @@
           build = mkApp "build";
           flash = mkApp "flash";
           update = mkApp "update";
+          draw = mkApp "draw";
           default = build;
         }
       );

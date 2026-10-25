@@ -9,6 +9,16 @@
 - **Swipe shortcuts**: the `swipe_button_mapper` node in [boards/shields/toucan/toucan.dtsi](boards/shields/toucan/toucan.dtsi)
 - **Invert scroll / trackpad settings**: the `tps43_trackpad` node in [boards/shields/toucan/toucan_right.overlay](boards/shields/toucan/toucan_right.overlay)
 
+# Layout diagram
+
+![keymap](keymap.svg)
+
+Generate:
+
+```sh
+nix run .#draw
+```
+
 # Building
 
 ```sh
